@@ -21,6 +21,8 @@
       <button @click="color" class="btn btn-danger">Cambia colore</button>
       <h2 :class="colore ? 'blu' : '' ">{{clock}}</h2>
     </div>
+    <input type="text" v-model="messaggio">
+    <p></p>
 
   </div>
 

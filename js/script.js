@@ -6,7 +6,8 @@ createApp({
       
       messaggio: "Hello World!!",
       clock: "00:00:00",
-      colore: false
+      colore: false,
+      messaggioFor: ""
     }
   },
   methods:{
@@ -30,6 +31,7 @@ createApp({
         
       }
     }
+    
   },
   mounted(){
     this.printClock()
