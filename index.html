@@ -17,8 +17,9 @@
 <body>
   <div id="app">
     <div class="container d-flex justify-content-between ">
-      <h1>{{messaggio}}</h1>
-      <h2 class="">{{clock}}</h2>
+      <h1 :class="colore ? 'blu' : '' ">{{messaggio}}</h1>
+      <button @click="color" class="btn btn-danger">Cambia colore</button>
+      <h2 :class="colore ? 'blu' : '' ">{{clock}}</h2>
     </div>
 
   </div>

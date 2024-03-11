@@ -5,8 +5,8 @@ createApp({
     return{
       
       messaggio: "Hello World!!",
-      clock: "00:00:00"
-
+      clock: "00:00:00",
+      colore: false
     }
   },
   methods:{
@@ -21,6 +21,14 @@ createApp({
       setInterval(()=>{
       this.printClock()
       }, 1000)
+    },
+    color(){
+      if (this.colore === false) {
+        this.colore = true
+      }else{
+        this.colore = false
+        
+      }
     }
   },
   mounted(){
