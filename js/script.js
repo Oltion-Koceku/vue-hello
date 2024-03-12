@@ -7,7 +7,8 @@ createApp({
       messaggio: "Hello World!!",
       clock: "00:00:00",
       colore: false,
-      messaggioFor: ""
+      messaggioFor: "",
+      img: "https://fastly.picsum.photos/id/811/200/300.jpg?hmac=h_NbFElSb3w71ZJbJxKMQg8QNgch87Gbus_L_rsfi6g"
     }
   },
   methods:{
